@@ -1,0 +1,14 @@
+{
+  "name": "donkey",
+  "version": "1.0.0",
+  "description": "anything about web",
+  "main": "make.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

@@ -1,0 +1,12 @@
+
+<h1>so the friend lists goes here</h1>
+
+<% for(i=0;i<friends.length;i++) { %>
+<li> <%= friends[i]%></li>
+<% } %>
+
+<form action="/addFriend" method="POST">
+    
+    <input type-"text" placeholder="name" name="newFriend"></input>
+    <button>add a new friend</button>
+</form>

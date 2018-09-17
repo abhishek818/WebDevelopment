@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Photo Blog</title>
+	<link rel="stylesheet" type="text/css" href="/styles.css">
+
+<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+</head><body><h1>The Results Page!!!</h1>
+
+<%for(var i=0;i<data["Search"].length;i++){ %>
+<strong><li><%= data["Search"][i]["Title"]%></strong>-<%=data["Search"][i]["Year"]%></li>
+<% }%>
+<br>    <br>
+
+<%for(var i=0;i<data["Search"].length;i++){ %>
+<li><img src=<%= data["Search"][i]["Poster"]%>></img></li>
+<% }%>
+
+<br><br><br>
+<a href='/'>Search Again</a>
+
+</body>
+</html>
